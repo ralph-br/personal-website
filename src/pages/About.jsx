@@ -85,12 +85,14 @@ export default function About() {
             </div>
           </div>
 
-          {/* Photo placeholder */}
+          {/* Photo */}
           <div className="about-animate flex justify-center md:justify-end">
-            <div className="w-64 h-80 bg-bg-secondary rounded-t-full rounded-b-2xl overflow-hidden shadow-inner relative group border border-border-subtle hover:border-accent/30 transition-colors duration-500">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-6xl font-serif text-accent/30">RB</span>
-              </div>
+            <div className="w-64 h-80 bg-bg-secondary rounded-t-full rounded-b-2xl overflow-hidden shadow-lg relative group border border-border-subtle hover:border-accent/30 transition-colors duration-500">
+              <img
+                src="/profile.jpg"
+                alt="Ralph Brown"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
           </div>
         </div>
